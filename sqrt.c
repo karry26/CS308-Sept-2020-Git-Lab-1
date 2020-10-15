@@ -30,9 +30,12 @@ int main(int argc, char* argv[]) {
         printf("please enter a valid number\n");
         return 0;
     }
-
 	int input = atoi(argv[1]);
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
+
+	if(input<0)
+        printf("Sqrt of %d is %fi\n",input,sqrt(-1*input));
+     else
+        printf("Sqrt of %d is %f\n",input,sqrt(input));
 	printf("end of program. Existing");
 	return(0);
 
