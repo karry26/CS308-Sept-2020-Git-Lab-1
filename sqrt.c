@@ -22,21 +22,21 @@ bool isnum(char *num)
 int main(int argc, char* argv[]) {
 
 	if (argc != 2) {
-		printf("Usage: sqrt input\n\n");
+		printf("NEGSUPPORT: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 	if(!isnum(argv[1]))
     {
-        printf("please enter a valid number\n");
+        printf("NEGSUPPORT: please enter a valid number\n");
         return 0;
     }
 	int input = atoi(argv[1]);
 
 	if(input<0)
-        printf("Sqrt of %d is %fi\n",input,sqrt(-1*input));
+        printf("NEGSUPPORT: Sqrt of %d is %fi\n",input,sqrt(-1*input));
      else
-        printf("Sqrt of %d is %f\n",input,sqrt(input));
-	printf("end of program. Existing");
+        printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
+	printf("NEGSUPPORT: end of program. Existing");
 	return(0);
 
 } // end main
