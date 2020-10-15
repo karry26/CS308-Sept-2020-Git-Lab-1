@@ -22,12 +22,16 @@ bool isnum(char *num)
 int main(int argc, char* argv[]) {
 
 	if (argc != 2) {
+
 		printf("DEBUG: Usage: sqrt input\n\n");
+
 		exit(-1);
 	}
 	if(!isnum(argv[1]))
     {
+
         printf("DEBUG: please enter a valid number\n");
+
         return 0;
     }
 	int input = atoi(argv[1]);
@@ -37,6 +41,7 @@ int main(int argc, char* argv[]) {
      else
         printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
 	printf("DEBUG: end of program. Existing");
+
 	return(0);
 
 } // end main
