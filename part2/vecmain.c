@@ -24,4 +24,6 @@ int main()
 
      add(a,b,c);
      print(c);
+     eleProd(a,b,c);
+     print(c);
 }
