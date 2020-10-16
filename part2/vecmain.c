@@ -26,4 +26,7 @@ int main()
      print(c);
      eleProd(a,b,c);
      print(c);
+     
+     float angle = getAngle(a,b);
+     printf("%f is angle between A and B.\n",angle);
 }
