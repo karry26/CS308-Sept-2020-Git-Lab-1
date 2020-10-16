@@ -29,4 +29,7 @@ int main()
      
      float angle = getAngle(a,b);
      printf("%f is angle between A and B.\n",angle);
+    
+    float norm_of_vectors = norm(a , b);
+    printf("Norm of A and B: %f\n", norm_of_vectors);
 }
