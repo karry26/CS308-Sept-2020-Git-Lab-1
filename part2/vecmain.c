@@ -32,4 +32,7 @@ int main()
     
     float norm_of_vectors = norm(a , b);
     printf("Norm of A and B: %f\n", norm_of_vectors);
+
+    float dot=dotprod(a, b);
+    printf("Dot product of A and B: %f\n", dot);
 }
